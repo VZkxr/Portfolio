@@ -9,11 +9,11 @@ Whether you're here to explore potential collaborations, evaluate my work, or si
 * [LinkedIn](https://www.linkedin.com/in/aarón-aldair-3b5075264/)
 
 ## About some projects
-**Ghidora:**
+* **Ghidora:**
 For this project, only the Regex library is required. The project is purely experimental, exploring a type of alphanumeric encryption. It's not recommended for use in high-security situations.
 [![ghid-pres.png](https://i.postimg.cc/fytSQVL3/ghid-pres.png)](https://postimg.cc/D4hwqy1F)
 
-**Employee Manager:**
+* **Employee Manager:**
 This project requires some libraries that are not included by default in Tkinter or Custom Tkinter, so it will be necessary to install [CTkMenuBar](https://github.com/Akascape/CTkMenuBar).
 [![db-pres.png](https://i.postimg.cc/QtnKzQXG/db-pres.png)](https://postimg.cc/Fd3KdJdD)
 
