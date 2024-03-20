@@ -8,5 +8,5 @@ Whether you're here to explore potential collaborations, evaluate my work, or si
 
 * [LinkedIn](https://www.linkedin.com/in/aarón-aldair-3b5075264/)
 
-## Instalación
+## Instalation
 Some of the projects rely on dependencies such as: Chrome Driver, Selenium, Matplotlib, Pandas, etc.
