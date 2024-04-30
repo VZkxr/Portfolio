@@ -10,7 +10,7 @@ Whether you're here to explore potential collaborations, evaluate my work, or si
 
 ## About some projects
 * **Ghidora:**
-For this project, only the Regex library is required. The project is purely experimental, exploring a type of alphanumeric encryption. It's not recommended for use in high-security situations.
+The project is purely experimental, exploring a type of alphanumeric encryption. It's not recommended for use in high-security situations.
 [![ghid-pres.png](https://i.postimg.cc/fytSQVL3/ghid-pres.png)](https://postimg.cc/D4hwqy1F)
 
 * **Employee Manager:**
