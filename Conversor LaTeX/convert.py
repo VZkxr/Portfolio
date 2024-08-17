@@ -2,6 +2,9 @@ import matplotlib.pyplot as plt
 import os
 from matplotlib import rc
 import matplotlib.transforms as transforms
+### Package for mathbb
+import matplotlib as mpl
+mpl.rcParams['text.latex.preamble'] = r'\usepackage{amsfonts}'  
 
 # LaTeX configuration in matplotlib
 rc('text', usetex=True)
@@ -23,14 +26,14 @@ def render_equation(latex, escala, formato, save_folder):
     fig.set_size_inches(bbox_data.width * 2, bbox_data.height * 2.2)
 
     # Save image
-    save_path = os.path.join(save_folder, f"ecuacion.{formato}")
+    save_path = os.path.join(save_folder, f"proba.{formato}")   ### Change name
     plt.savefig(save_path, format=formato, transparent=True, dpi=300 * escala, bbox_inches='tight', pad_inches=0)
     plt.close()
 
     print(f"Ecuación guardada en {save_path}")
 
 # Example
-latex_input = r'X = \displaystyle\sum_{i=1}^{N} T_i \hspace{.1cm} o(h)'
+latex_input = r'P_{ij}^{(1)} = \mathbb{P}[X_n = j | X_{n-1} = i]'    ### Change input
 escala = 3.0  # Size 300%
 formato = 'png'  # You can change to 'jpg', 'svg', etc.
 save_folder = 'images'
